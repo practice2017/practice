@@ -4,6 +4,7 @@ body {
     height: 100%;
     background: #fff;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .clearfix:after {
@@ -116,9 +117,6 @@ body {
 .text p {
     font-family: Lato;
     font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 2.14;
     letter-spacing: 0.7px;
     text-align: center;
@@ -227,22 +225,22 @@ body {
 
 .img1 {
     opacity: 0;
-    animation: open-img 2s linear;
+    animation: open-img 1s linear;
     animation-delay: 0.5s;
     animation-fill-mode: forwards;
 }
 
 .img2 {
     opacity: 0;
-    animation: open-img 2s linear;
+    animation: open-img 1s linear;
     animation-delay: 1s;
     animation-fill-mode: forwards;
 }
 
 .img3 {
     opacity: 0;
-    animation: open-img 2s linear;
-    animation-delay: 1.5s;
+    animation: open-img 1s linear;
+    animation-delay: 2s;
     animation-fill-mode: forwards;
 }
 
@@ -413,7 +411,7 @@ body {
   line-height: 30px;
   letter-spacing: 0.9px;
   text-align: center;
-  color: #000000;
+  color: #000;
 }
 
 .cuisines{
@@ -578,7 +576,7 @@ body {
     background: -ms-linear-gradient(top left, rgba(245,115,101,0) 20% ,rgba(200,0,41,0.50) 63%);
     background: linear-gradient(top left, rgba(245,115,101,0) 20% ,rgba(200,0,41,0.50) 63%);
     height: 225px;
-    width: 320px;
+    width: 100%;
 }
 
 .cuisine:hover .cover-background
@@ -683,36 +681,36 @@ hr {
 
 #slideshow {
     width: 998px;
-    display: block;
+    display: inline-block;
     margin: 0 auto;
 }
 
 .num1
 {
-    animation: open-img 2s linear;
-    animation-delay: 0.5s;
+    animation: open-img 3s linear;
+    animation-delay: 6s;
     animation-fill-mode: forwards;
 }
 .num2
 {
-    animation: open-img 2s linear;
-    animation-delay: 1s;
+    animation: open-img 3s linear;
+    animation-delay: 7s;
     animation-fill-mode: forwards;
 }
 .num3
 {
-    animation: open-img 2s linear;
-    animation-delay: 1.5s;
+    animation: open-img 3s linear;
+    animation-delay: 8s;
     animation-fill-mode: forwards;
 }
 .num4
 {
-    animation: open-img 2s linear;
-    animation-delay: 2s;
+    animation: open-img 3s linear;
+    animation-delay: 9s;
     animation-fill-mode: forwards;
 }
 .num5{
-    animation: open-img 2s linear;
-    animation-delay: 2.5s;
+    animation: open-img 3s linear;
+    animation-delay: 10s;
     animation-fill-mode: forwards;
 }
